@@ -1,0 +1,429 @@
+/* Welcome to Easy Style, i made this as a simple CSS styling framework
+you can edit this page if you want to but unless you have a good knowledged 
+of css i advise you not to since you might break components, enjoy anyway! */
+
+
+
+/* do NOT edit these links!!! */
+@import url(http://fonts.googleapis.com/css?family=Finger+Paint);
+@import url(http://fonts.googleapis.com/css?family=Pompiere);
+@import url(http://fonts.googleapis.com/css?family=Denk+One);
+@import url(http://fonts.googleapis.com/css?family=Sail);
+@import url(http://fonts.googleapis.com/css?family=Yesteryear);
+/* end of links */
+
+/* here are the link settings */
+
+.redlink
+{
+color: red;
+}
+
+a.redlink
+{
+color: red;
+text-decoration: none;
+}
+a.redlink:hover
+{
+text-decoration: none;
+color: orange;
+}
+a.redlink:active
+{
+text-decoration: none;
+color: red;
+}
+
+.bluelink
+{
+color:blue;
+}
+
+a.bluelink
+{
+color: blue;
+text-decoration: none;
+}
+a.bluelink:hover
+{
+color: #2E9AFE;
+text-decoration: none;
+}
+a.bluelink:active
+{
+color: blue;
+text-decoration: none;
+}
+
+
+.greenlink
+{
+color:green;
+}
+
+a.greenlink
+{
+color: green;
+text-decoration: none;
+}
+a.greenlink:hover
+{
+color: #9AFE2E;
+text-decoration: none;
+}
+a.greenlink:active
+{
+color: green;
+text-decoration: none;
+}
+
+/* end of link css */
+
+
+/* here is the css for the fonts, these are the ones brought in from external sources, that means they won't work if your not conected, dont delete the links at the top or these wont work */
+
+#font1
+{
+font-family: 'Finger Paint', cursive;
+}
+
+
+#font2 
+{
+font-family: 'Pompiere', cursive;
+}
+
+
+#font3 
+{
+font-family: 'Denk One', sans-serif;
+}
+
+
+#font4
+{
+font-family: 'Sail', cursive;
+}
+
+
+#font5
+{
+font-family: 'Yesteryear', cursive;
+}
+
+
+/* end of external fonts */
+
+/* these fonts are ones that are built in to every pc/mac, they might not be as good as the google ones but they'll work whatever */
+
+#basicfont1
+{
+font-family: Tahoma, Verdana;
+}
+
+
+#basicfont2
+{
+font-family: Comic Sans MS, Ariel Black;
+}
+
+
+#basicfont3
+{
+font-family: Georgia, Palatino;
+}
+
+
+#basicfont4
+{
+font-family: Impact, Charcoal;
+}
+
+
+#basicfont5
+{
+font-family: "Times New Roman", Times;
+}
+
+/* end of basic safe web fonts */
+
+/* here are some text effects */
+
+#bold
+{
+font-weight: bold;
+}
+
+#underlined 
+{
+text-decoration: underlined;
+}
+
+
+#italic
+{
+font-style: italic;
+}
+
+
+#crossout 
+{
+text-decoration:line-through
+}
+
+/* end of text effects */
+
+/* here are three background background textures, for these to work you need to keep the imahes bac1,2 and 3 in the same folder as the page('s) */
+
+#background1
+{
+background: url(bac1.png), repeat fixed;
+}
+
+
+#background2
+{
+background: url(bac2.png), repeat fixed;
+}
+
+
+#background3
+{
+background: url(bac3.png), repeat fixed;
+}
+
+/* end of backgrounds */
+
+/* start of font sizes */
+
+#small
+{
+font-size: 70%;
+}
+
+
+#medium
+{
+font-size: 110%;
+}
+
+
+#large
+{
+font-size: 150%
+}
+
+/* end of font sizes */
+
+/* icon size */
+#icon 
+{
+width: 40px;
+height: 40px;
+}
+
+
+
+/* here are some colored gradient background */
+
+#bacorange
+{
+background-image: -webkit-linear-gradient(top, #FF5A00 0%, #FFAE00 100%);  
+background-image: -moz-linear-gradient(top, #FF5A00 0%, #FFAE00 100%);  
+background-image: -ms-linear-gradient(top, #FF5A00 0%, #FFAE00 100%);  
+background-image: -o-linear-gradient(top, #FF5A00 0%, #FFAE00 100%);  
+background-image: linear-gradient(top, #FF5A00 0%, #FFAE00 100%);
+}
+
+
+#bacred
+{
+background-image: -webkit-linear-gradient(top, #FE2E2E 0%, #DF0101 100%);  
+background-image: -moz-linear-gradient(top, #FE2E2E 0%, #DF0101 100%);  
+background-image: -ms-linear-gradient(top, #FE2E2E 0%, #DF0101 100%);  
+background-image: -o-linear-gradient(top, #FE2E2E 0%, #DF0101 100%);  
+background-image: linear-gradient(top, #FE2E2E 0%, #DF0101 100%);
+}
+
+
+#bacyellow
+{
+background-image: -webkit-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: -moz-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: -ms-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: -o-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: linear-gradient(top, #F4FA58 0%, #FFFF00 100%);
+}
+
+
+#bacgrey
+{
+background-image: -webkit-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: -moz-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: -ms-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: -o-linear-gradient(top, #F4FA58 0%, #FFFF00 100%);  
+background-image: linear-gradient(top, #F4FA58 0%, #FFFF00 100%);
+}
+
+
+#backgreen
+{
+background-image: -webkit-linear-gradient(top, #40FF00 0%, #04B404 100%);  
+background-image: -moz-linear-gradient(top, #40FF00 0%, #04B404 100%);  
+background-image: -ms-linear-gradient(top, #40FF00 0%, #04B404 100%);  
+background-image: -o-linear-gradient(top, #40FF00 0%, #04B404 100%);  
+background-image: linear-gradient(top, #40FF00 0%, #04B404 100%);
+}
+
+
+#backblue
+{
+background-image: -webkit-linear-gradient(top, #2E9AFE 0%, #0040FF 100%);  
+background-image: -moz-linear-gradient(top, #2E9AFE 0%, #0040FF 100%);  
+background-image: -ms-linear-gradient(top, #2E9AFE 0%, #0040FF 100%);  
+background-image: -o-linear-gradient(top, #2E9AFE 0%, #0040FF 100%);  
+background-image: linear-gradient(top, #2E9AFE 0%, #0040FF 100%);
+}
+
+/* end of gradient backgrounds */
+
+/* share css */
+
+#smallshade
+{
+-moz-box-shadow: 0px 0px 4px 2px #888;
+-webkit-box-shadow: 0px 0px 4px 2px #888;
+box-shadow: 0px 0px 4px 2px #888;
+}
+
+
+#mediumshade
+{
+-moz-box-shadow: 0px 0px 4px 3px #888;
+-webkit-box-shadow: 0px 0px 4px 3px #888;
+box-shadow: 0px 0px 4px 3px #888;
+}
+
+
+#largeshade
+{
+-moz-box-shadow: 0px 0px 4px 4px #888;
+-webkit-box-shadow: 0px 0px 4px 4px #888;
+box-shadow: 0px 0px 4px 4px #888;
+}
+
+
+/* end of shade */
+
+
+/* here are the basic text colors */
+
+#red
+{
+color: red
+}
+
+
+#yellow
+{
+color: yellow;
+}
+
+
+#green
+{
+color: green;
+}
+
+
+#blue 
+{
+color: blue;
+}
+
+
+#pink
+{
+color: #FA58F4;
+}
+
+
+#orange 
+{
+color: #FF8000;
+}
+
+
+#purple
+{
+color: #6A0888;
+}
+
+
+#white
+{
+color: white;
+}
+
+
+#grey 
+{
+color: #A4A4A4;
+}
+
+
+#brown 
+{
+color: #3B0B0B;
+}
+#black 
+{
+color: black;
+}
+
+
+#cream
+{
+color: #F3E2A9;
+}
+
+
+#turqoise
+{
+color: #00FFFF;
+}
+
+
+#lightgreen
+{
+color: #2EFE2E;
+}
+
+
+#lightblue 
+{
+color: #00BFFF;
+}
+
+
+#lightbrown
+{
+color: #3B170B;
+}
+
+
+#lightred
+{
+color: #FA5858;
+}
+
+/* end of text colors */
+
+/* by default there are 3 social icons included, these can't be used threw css but here are the codes to copy them into your html where you want them  
+Twitter: <a href ="http://twitter.com/yourname"><img src="twitter.png" id="icon" ></a>
+Facebook <a href ="http://facebook.com/yourname"><img src="fb.png" id="icon" ></a>
+Youtube <a href = "http://youtube.com/yourname"><img src="youtube.png" id="icon"></a>
+Thanks for using the Easy Style CSS framework! please leave the comment below intact to give me some credit, thanks :) */
+
+/* Made by Niels Klom, Copyright PSM Network/Niels Klom 2013, download your free version now at http://easystyle.nielsklom.cu.cc , thanks :D!!! */
